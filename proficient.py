@@ -7,8 +7,7 @@ import random
 
 repeat_times = 10
 
-hero_pos = ('./hero/miyue.png', './hero/baiqi.png', './hero/zhaoyun.png',
-            './hero/mozi.png')
+hero_pos = ('./hero/simayi.png', './hero/dianwei.png', './hero/daji.png', './hero/makeboluo.png', './hero/ake.png', './hero/baiqi.png')
 
 
 def check_img(target, sleep_seconds):
@@ -35,7 +34,7 @@ def choose_hero():
 
 def begin_match():
     print('点击匹配')
-    touch(700, 600)
+    touch(790, 650)
 
     check_img('./imgs/match.jpg', 1)
 
@@ -43,7 +42,7 @@ def begin_match():
     touch(645, 602, 4)
 
     print('点击扩大，显示所有英雄')
-    touch(258, 362, 4)
+    touch(264, 330, 4)
 
     print('选择要玩的英雄')
     choose_hero()
@@ -77,7 +76,7 @@ def do_first_work():
     print('点击人机')
     touch(600, 400, 2)
     print('点击开始练习')
-    touch(1100, 530, 8)
+    touch(1064, 572, 8)
 
 
 def do_second_work():
